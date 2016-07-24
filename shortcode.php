@@ -22,7 +22,7 @@ function icon_shortcode_handler($atts){
         break;
     case "star":
         $nb = $atts['nb'];
-        $output = str_repeat("<img src=\"/wp-content/plugins/recipe-icons/img/Star4Diff.gif\" alt=\"Star\" width=\"14\" height=\"14\">",$nb);
+        $output = str_repeat("<img src=\"/wp-content/plugins/recipe-icons/img/star.gif\" alt=\"Star\" width=\"14\" height=\"14\">",$nb);
         break;        
   }
   return $output;
